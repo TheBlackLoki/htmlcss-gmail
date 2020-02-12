@@ -1,0 +1,91 @@
+/* caratteristiche generali */
+*{
+  font-family: helvetica,arial,sans-serif;
+}
+body{
+  background-image:url(../img/sfondo.jpg);
+  color: white;
+}
+.centrale{
+  margin: auto;
+  width: 60%;
+}
+/* logo + scritta header */
+header{
+  margin-top: 30px;
+  padding-bottom: 21px;
+  border-bottom: solid 2px;
+  margin-bottom: 5px;
+}
+h1{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 30px;
+  }
+img{
+  width: 115px;
+  height: 100%;
+}
+/* parte cerca e email da leggere */
+#cerca{
+  width: 130px;
+  height: 10px;
+  vertical-align: middle;
+  font-size: 10px;
+}
+#VAI{
+  font-size: 12px;
+  border-radius: 20%;
+  height: 20px;
+  width: 36px;
+  vertical-align: middle;
+}
+#numeromail{
+  display: inline-block;
+  border-radius: 100%;
+  padding: 12px;
+  background-color: #ffa503;
+}
+.search{
+  border-bottom: solid 2px;
+  margin-bottom: 10px;
+}
+#unread{
+  font-size: 25px;
+  margin-bottom: 8px;
+  margin-top: 10px;}
+/* parte corpo email */
+.mailp{
+  font-size: 15px;
+  display: inline;
+  color: #818181;
+}
+.emailunread{
+  background-color: #d3d3d3;
+  border: solid 1px black;
+}
+.emailread{
+  background-color: #FFFFFF;
+  border: solid 1px black;
+}
+
+.mailh{
+  color: black;
+  display:inline;
+  font-size: 15px;
+}
+/* piè pagina */
+footer{
+  margin-top: 9px;
+  padding-top: 11px;
+  border-top: solid 2px;
+  text-align: center;
+}
+#pièh{
+  display: inline;
+  font-size: 30px;
+}
+#pièp{
+  display: inline;
+  font-size: 10px;
+}
